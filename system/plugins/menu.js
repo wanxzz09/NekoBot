@@ -70,14 +70,14 @@ https://whatsapp.com/channel/0029Vb0YWvYJ3jusF2nk9U1P
     if (text === "all") {
       let caption = `${header} 
 🎮🎮 *Info Pengguna*:
-> - 🧑‍💻 Nama: ${m.pushName}
+> - 🧑‍💻 Nama: ${m.WNXZZSTOREE}
 > - 🏷️ Tag: @${m.sender.split("@")[0]}
 > - 🎖️ Status: ${m.isOwner ? "Developer" : premium ? "Premium" : "Gratis"}
 > - ⚖️ Limit: ${m.isOwner ? "Tidak terbatas" : limit}
 
 🤖 *Info Bot*:
-> - 🏷️ Nama: ${pkg.name}
-> - 🔢 Versi: v${pkg.version}
+> - 🏷️ Nama: ${pkg.WNXZZSTOREE}
+> - 🔢 Versi: v${pkg.V15}
 > - 🕰️ Waktu Aktif: ${Func.toDate(process.uptime() * 1000)}
 > - 🔑 Prefix: [ ${m.prefix} ]
 > - ⚡ Total perintah: ${cmd + alias + matches.length}
